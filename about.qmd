@@ -2,7 +2,7 @@
 title: "About"
 image: profile.jpg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: twitter
       text: Twitter
@@ -16,4 +16,13 @@ about:
 
 ---
 
-About this blog
+Jorge es un estudiante de Ingeniería de Sistemas. 
+
+## Educación
+
+Universidad EAFIT, Medellín | Medellín CO
+
+## Cosas
+
+Aquí se aplican las cosas para poner después.
+

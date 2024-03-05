@@ -152,15 +152,15 @@ window.Quarto = {
 <section id="dirac" class="level1">
 <h1>Dirac</h1>
 <p>Vector en notacón dirac es así</p>
-<p>\( v v \)</p>
+<p>$ v v $</p>
 <p>Y el vector 0 es 0 :3</p>
-<p>Colección de vectores es así \( { v_0 , …v_n } , … , n \)</p>
+<p>Colección de vectores es así $ { v_0 , …v_n } , … , n $</p>
 <p>El vector 0 es una excepción y no cambia de notación. 0 = 0 :3</p>
-<p>El dual vector es \( v = [a_{1}<sup>* a_n</sup>*] \)</p>
-<p>El inner product es \[ v_1 w_1 = _{i=1}^n a_i^*a_i \]</p>
-<p>Y si tuvieramos una base ortonormal \( { v_0 , …v_n } \) entonces \[ v_i v_j = _{ij}, \]</p>
-<p>Y la norma de un vector \(|v| = \sqrt{v v } \)</p>
-<p>El outer product de dos vectores se denota \( v v \)</p>
+<p>El dual vector es $ v = [a_{1}<sup>* a_n</sup>*] $</p>
+<p>El inner product es <span class="math display">\[ \langle v_1 \vert w_1 \rangle = \sum_{i=1}^n a_i^*a_i \]</span></p>
+<p>Y si tuvieramos una base ortonormal $ { v_0 , …v_n } $ entonces <span class="math display">\[ \langle v_i \vert v_j \rangle = \delta_{ij}, \]</span></p>
+<p>Y la norma de un vector $|v| = \sqrt{v v } $</p>
+<p>El outer product de dos vectores se denota $ v v $</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="image.png" class="img-fluid figure-img"></p>
@@ -173,29 +173,29 @@ window.Quarto = {
 <figcaption>Esto lo irá a transcribir mi madre</figcaption>
 </figure>
 </div>
-<p>La base computacional de \( { , … , n-1 } \) tambien se le conoce como la base canónica. A veces va de 1 a n.</p>
+<p>La base computacional de $ { , … , n-1 } $ tambien se le conoce como la base canónica. A veces va de 1 a n.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="image-1.png" class="img-fluid figure-img"></p>
 <figcaption>Base Computacional</figcaption>
 </figure>
 </div>
-<p>Y la suma normalizada de los vectores de la base computacional definen el vector \( | D \) llamado estado diagonal.</p>
+<p>Y la suma normalizada de los vectores de la base computacional definen el vector $ | D $ llamado estado diagonal.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="image-2.png" class="img-fluid figure-img"></p>
 <figcaption>Diagonal State</figcaption>
 </figure>
 </div>
-<p>Y cuando n=2 \[ + = \]</p>
+<p>Y cuando n=2 <span class="math display">\[ \vert + \rangle = \frac{\vert 0 \rangle + \vert 1 \rangle}{\sqrt{2}} \]</span></p>
 <section id="quibit-y-la-bloch-sphere" class="level2">
 <h2 class="anchored" data-anchor-id="quibit-y-la-bloch-sphere">Quibit y la Bloch Sphere</h2>
-<p>Un qubit es un vector unitario en un espacio vectorial \( ^2 \) y un qubit genérico \( \) se representa con: \( = + \)</p>
-<p>donde alpha y beta, son las amplitudes de estado, cumplen \( ||^2 +||^2 = 1\) y la base computacional es el set \( { |0,|1} \)</p>
-<p>Los términos de vector estado, o estado can a ser usados para significar <code>vector unitario en espacio de Hilbert</code>. SI transformamos la primera ecuación metiendo la segunda y haciendo una segunda transformación, un qubit se puede definir con solo 2 números reales. (Se lee que psi depende de phi y theta btw) \( (, ) \)</p>
-<p>\[ |= cos|0+ e^{i} sinsin|1\]</p>
+<p>Un qubit es un vector unitario en un espacio vectorial <span class="math inline">\(\mathbb{C}^2\)</span> y un qubit genérico <span class="math inline">\(\vert \psi \rangle\)</span> se representa con: <span class="math inline">\(\vert \psi \rangle = \alpha \vert 0\rangle +\beta \vert 1 \rangle\)</span></p>
+<p>donde alpha y beta, son las amplitudes de estado, cumplen <span class="math inline">\(|\alpha|^2 +|\beta|^2 = 1\)</span> y la base computacional es el set <span class="math inline">\(\{ |0\rangle,|1\rangle \}\)</span></p>
+<p>Los términos de vector estado, o estado can a ser usados para significar <code>vector unitario en espacio de Hilbert</code>. SI transformamos la primera ecuación metiendo la segunda y haciendo una segunda transformación, un qubit se puede definir con solo 2 números reales. (Se lee que psi depende de phi y theta btw) <span class="math inline">\(\psi(\phi, \theta)\)</span></p>
+<p><span class="math display">\[|\psi\rangle = cos\frac{\theta}{2}|0\rangle + e^{i\phi} sin\frac{\theta}{2}sin|1\rangle\]</span></p>
 <p>Y los componentes de un vector en la Bloch Sphere se ven así.</p>
-<p>\[ <span class="math display">\[\begin{align}  x=\begin{bmatrix} sin\theta cos\phi &amp; sin\theta sin\phi &amp; cos\theta \end{bmatrix}^T \label{vectorLatex} \end{align}\]</span> \]</p>
+<p><span class="math display">\[\begin{align}  x=\begin{bmatrix} sin\theta cos\phi &amp; sin\theta sin\phi &amp; cos\theta \end{bmatrix}^T \label{vectorLatex} \end{align}\]</span></p>
 </section>
 </section>
 <section id="operadores-lineales" class="level1">
@@ -259,7 +259,7 @@ window.Quarto = {
 </figure>
 </div>
 <p>Como las matrices de Pauli unitarias y son hermitian,</p>
-<p>o \( A^{}=A \), también aplican las propiedades que son normal \( A<sup>{}A=AA</sup>{} \), y por tanto diagonalizable. Y por ser unitarias los valores propios son \( \)</p>
+<p>o $ A^{}=A $, también aplican las propiedades que son normal $ A<sup>{}A=AA</sup>{} $, y por tanto diagonalizable. Y por ser unitarias los valores propios son $ $</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="image-12.png" class="img-fluid figure-img"></p>

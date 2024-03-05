@@ -142,44 +142,44 @@
   {
     "objectID": "posts/clases/6.html",
     "href": "posts/clases/6.html",
-    "title": "notas",
+    "title": "6",
     "section": "",
-    "text": "Demostración de Entrelazamiento no puede resultar de estados simples: \\((\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)= \\frac{|00\\rangle + |11\\rangle}{2}\\)?\nEmpezamos desde dos estado simples \\[(\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)\\]\n\\[=(\\alpha_0\\alpha_1|00\\rangle + \\alpha_0\\beta_0|01\\rangle)(\\beta_0\\alpha_1|10\\rangle + \\beta_0\\beta_1|11\\rangle)\\] Pero para alcanzar de un lado a otro debemos llegar a \\[= \\frac{1}{\\sqrt{2}}*|00\\rangle + 0*|01\\rangle+0*|10\\rangle + \\frac{1}{\\sqrt{2}}*|11\\rangle)\\]debemos revisar posibles valores de \\(\\alpha_i,\\beta_j\\) \\(\\alpha_0\\alpha_1=\\frac{1}{\\sqrt{2}}\\) \\(\\alpha_0\\beta_1=0\\) \\(\\beta_0\\alpha_1=0\\) \\(\\beta_0\\beta_1=\\frac{1}{\\sqrt{2}}\\)\n\\(i)\\) suponemos \\(\\alpha_0=0\\), \\(\\beta_1\\ne0\\), contradicción =&gt; \\(\\alpha_0\\ne0\\) \\(i)\\) suponemos \\(\\beta_1=0\\), \\(\\alpha_0\\ne0\\), contradicción =&gt; \\(\\beta_1\\ne0\\) \\(QED\\)\nNo es posible clonar un estado cuantico no conocido.\nSe puede freaking teleportar, tho.\n\\(\\psi\\)"
+    "text": "Demostración de Entrelazamiento no puede resultar de estados simples: \\((\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)= \\frac{|00\\rangle + |11\\rangle}{2}\\)?\nEmpezamos desde dos estado simples \\[(\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)\\]\n\\[=(\\alpha_0\\alpha_1|00\\rangle + \\alpha_0\\beta_0|01\\rangle)(\\beta_0\\alpha_1|10\\rangle + \\beta_0\\beta_1|11\\rangle)\\] Pero para alcanzar de un lado a otro debemos llegar a \\[= \\frac{1}{\\sqrt{2}}*|00\\rangle + 0*|01\\rangle+0*|10\\rangle + \\frac{1}{\\sqrt{2}}*|11\\rangle)\\]debemos revisar posibles valores de \\(\\alpha_i,\\beta_j\\) \\(\\alpha_0\\alpha_1=\\frac{1}{\\sqrt{2}}\\) \\(\\alpha_0\\beta_1=0\\) \\(\\beta_0\\alpha_1=0\\) \\(\\beta_0\\beta_1=\\frac{1}{\\sqrt{2}}\\)\n\\(i)\\) suponemos \\(\\alpha_0=0\\), \\(\\beta_1\\ne0\\), contradicción =&gt; \\(\\alpha_0\\ne0\\) \\(i)\\) suponemos \\(\\beta_1=0\\), \\(\\alpha_0\\ne0\\), contradicción =&gt; \\(\\beta_1\\ne0\\) \\(QED\\)\nNo es posible clonar un estado cuantico no conocido.\nSe puede freaking teleportar, tho.\n\\(\\psi\\)\n\n\nLSB =\\(\\psi\\) \\(|\\beta_{00}\\rangle=\\frac{|00\\rangle+|11\\rangle}{\\sqrt{2}}\\) Estado inicial:\\(|\\psi\\rangle|\\beta_{00}\\rangle=|\\psi_0\\rangle\\)\n\\(|\\psi_2\\rangle=1/2*(\\alpha|000\\rangle + \\alpha |001\\rangle + \\beta|100\\rangle - \\beta|011\\rangle+\\) \\(\\alpha|110\\rangle + \\alpha|111\\rangle+\\beta|100\\rangle - \\beta|101\\rangle)\\)\n\\(|\\psi_3\\rangle\\) en 4 casos: 1. M1=0, M2 =0 Solo quedan los estados \\(\\frac{\\alpha k|000\\rangle+\\beta k|100\\rangle}{2}\\) donde debe haber un \\(k\\) que devuelva la norma 1. \\(k=2\\) en este caso\nobtenemos el resultado $\\alpha|000\\rangle +\\beta|100\\rangle$\ny poniendolo bonito: \n\n$|\\psi_4\\rangle(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |00\\rangle$ \n\nNo corre X, No corre Z\n\nM1=0, M2 =1 pasa \\(k=2\\) y \\((\\beta|0\\rangle + \\alpha|1\\rangle)\\otimes |10\\rangle\\) Corre X, No Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |10\\rangle\\)\nM1=1, M2=0 pasa \\(k=2\\) y \\((\\alpha|0\\rangle - \\beta|1\\rangle)\\otimes |01\\rangle\\) No Corre X, Si Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |01\\rangle\\)\nM1=1, M2=1 pasa \\(k=2\\) y \\((- \\beta|0\\rangle +\\alpha|1\\rangle)\\otimes |11\\rangle\\) Corre X, y Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |11\\rangle\\)"
   },
   {
     "objectID": "posts/clases/6.html#diapositiva-de-teleportación",
     "href": "posts/clases/6.html#diapositiva-de-teleportación",
-    "title": "notas",
-    "section": "Diapositiva de Teleportación",
-    "text": "Diapositiva de Teleportación\nLSB =\\(\\psi\\) \\(|\\beta_{00}\\rangle=\\frac{|00\\rangle+|11\\rangle}{\\sqrt{2}}\\) Estado inicial:\\(|\\psi\\rangle|\\beta_{00}\\rangle=|\\psi_0\\rangle\\)\n\\(|\\psi_2\\rangle=1/2*(\\alpha|000\\rangle + \\alpha |001\\rangle + \\beta|100\\rangle - \\beta|011\\rangle+\\) \\(\\alpha|110\\rangle + \\alpha|111\\rangle+\\beta|100\\rangle - \\beta|101\\rangle)\\)\n\\(|\\psi_3\\rangle\\) en 4 casos: 1. M1=0, M2 =0 Solo quedan los estados \\(\\frac{\\alpha k|000\\rangle+\\beta k|100\\rangle}{2}\\) donde debe haber un \\(k\\) que devuelva la norma 1. \\(k=2\\) en este caso\nobtenemos el resultado $\\alpha|000\\rangle +\\beta|100\\rangle$\ny poniendolo bonito: \n\n$|\\psi_4\\rangle(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |00\\rangle$ \n\nNo corre X, No corre Z\n\nM1=0, M2 =1 pasa \\(k=2\\) y \\((\\beta|0\\rangle + \\alpha|1\\rangle)\\otimes |10\\rangle\\) Corre X, No Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |10\\rangle\\)\nM1=1, M2=0 pasa \\(k=2\\) y \\((\\alpha|0\\rangle - \\beta|1\\rangle)\\otimes |01\\rangle\\) No Corre X, Si Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |01\\rangle\\)\nM1=1, M2=1 pasa \\(k=2\\) y \\((- \\beta|0\\rangle +\\alpha|1\\rangle)\\otimes |11\\rangle\\) Corre X, y Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |11\\rangle\\)"
+    "title": "6",
+    "section": "",
+    "text": "LSB =\\(\\psi\\) \\(|\\beta_{00}\\rangle=\\frac{|00\\rangle+|11\\rangle}{\\sqrt{2}}\\) Estado inicial:\\(|\\psi\\rangle|\\beta_{00}\\rangle=|\\psi_0\\rangle\\)\n\\(|\\psi_2\\rangle=1/2*(\\alpha|000\\rangle + \\alpha |001\\rangle + \\beta|100\\rangle - \\beta|011\\rangle+\\) \\(\\alpha|110\\rangle + \\alpha|111\\rangle+\\beta|100\\rangle - \\beta|101\\rangle)\\)\n\\(|\\psi_3\\rangle\\) en 4 casos: 1. M1=0, M2 =0 Solo quedan los estados \\(\\frac{\\alpha k|000\\rangle+\\beta k|100\\rangle}{2}\\) donde debe haber un \\(k\\) que devuelva la norma 1. \\(k=2\\) en este caso\nobtenemos el resultado $\\alpha|000\\rangle +\\beta|100\\rangle$\ny poniendolo bonito: \n\n$|\\psi_4\\rangle(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |00\\rangle$ \n\nNo corre X, No corre Z\n\nM1=0, M2 =1 pasa \\(k=2\\) y \\((\\beta|0\\rangle + \\alpha|1\\rangle)\\otimes |10\\rangle\\) Corre X, No Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |10\\rangle\\)\nM1=1, M2=0 pasa \\(k=2\\) y \\((\\alpha|0\\rangle - \\beta|1\\rangle)\\otimes |01\\rangle\\) No Corre X, Si Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |01\\rangle\\)\nM1=1, M2=1 pasa \\(k=2\\) y \\((- \\beta|0\\rangle +\\alpha|1\\rangle)\\otimes |11\\rangle\\) Corre X, y Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |11\\rangle\\)"
   },
   {
     "objectID": "posts/clases/3.html",
     "href": "posts/clases/3.html",
-    "title": "Clase 3",
+    "title": "3",
     "section": "",
-    "text": "Clase 3\n\nfun meth: algebras abstractas\nconjuntos + op = grupos +??=algebras\n+?? = anillos\nPreguntar Recocido simulado en cuantica y como se usa gradient descent para algoritmos de busqueda"
+    "text": "3\n\nfun meth: algebras abstractas\nconjuntos + op = grupos +??=algebras\n+?? = anillos\nPreguntar Recocido simulado en cuantica y como se usa gradient descent para algoritmos de busqueda"
   },
   {
     "objectID": "posts/clases/1.html",
     "href": "posts/clases/1.html",
-    "title": "Yay",
+    "title": "1",
     "section": "",
-    "text": "Yay\nFF: Matrices unitarias, rotan; pero no escalan los vectores que operan.\n\nTaller algebra lineal\nQiskit Biskit\nGrovel en Qiskit\nSome shit\n\nPinche definicion corchadora:\n\nAlgoritmo: Serie de instrucciones finitas y no ambigüas."
+    "text": "1\nYay\nFF: Matrices unitarias, rotan; pero no escalan los vectores que operan.\n\nTaller algebra lineal\nQiskit Biskit\nGrovel en Qiskit\nSome shit\n\nPinche definicion corchadora:\n\nAlgoritmo: Serie de instrucciones finitas y no ambigüas."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "notas",
     "section": "",
-    "text": "Bilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYay\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4 Propiedades cuanticas divertidas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClase 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiapositiva compuertas Pauli-dim y Hadamard\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiapositiva de Teleportación\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCovectors, Components, Transformation Rules\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefiniciones de un Tensor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDirac\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVision de producto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTensor Product vs Kronecker Product\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Metric Tensor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Switcheroo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransformations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector definition\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTo Dos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 2, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Bilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCovectors, Components, Transformation Rules\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefiniciones de un Tensor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDirac\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVision de producto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTensor Product vs Kronecker Product\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Metric Tensor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Switcheroo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransformations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector definition\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTo Dos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 2, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Jorge es un estudiante de Ingeniería de Sistemas."
   },
   {
     "objectID": "posts/bilinearforms/bilinearforms.html",
@@ -198,44 +198,44 @@
   {
     "objectID": "posts/clases/2.html#superposición-de-estados",
     "href": "posts/clases/2.html#superposición-de-estados",
-    "title": "4 Propiedades cuanticas divertidas",
-    "section": "",
-    "text": "Tener un qubit en 1, 0 o superposición de infinitos estados :3\nbtw \\( n; qubits \\) quedan en \\( 2^{n} \\) dimensiones complejas"
+    "title": "2",
+    "section": "1. Superposición de estados",
+    "text": "1. Superposición de estados\nTener un qubit en 1, 0 o superposición de infinitos estados :3\nbtw \\( n; qubits \\) quedan en \\( 2^{n} \\) dimensiones complejas"
   },
   {
     "objectID": "posts/clases/2.html#interferencia",
     "href": "posts/clases/2.html#interferencia",
-    "title": "4 Propiedades cuanticas divertidas",
-    "section": "",
-    "text": "Contructiva y destructiva. Think waves."
+    "title": "2",
+    "section": "2. Interferencia",
+    "text": "2. Interferencia\nContructiva y destructiva. Think waves."
   },
   {
     "objectID": "posts/clases/2.html#entrelazamiento",
     "href": "posts/clases/2.html#entrelazamiento",
-    "title": "4 Propiedades cuanticas divertidas",
-    "section": "",
-    "text": "Spooky bullshit at a distance. Puede haber correlación entre 2 qubits. (Correlacionar 2 qubits es posible con un circuito). La decoherencia es que el entorno, va a medir y destruir el circuito cuántico. Superconducción a temperatura ambiente es computación cuántica a temperatura ambiente."
+    "title": "2",
+    "section": "3. Entrelazamiento",
+    "text": "3. Entrelazamiento\nSpooky bullshit at a distance. Puede haber correlación entre 2 qubits. (Correlacionar 2 qubits es posible con un circuito). La decoherencia es que el entorno, va a medir y destruir el circuito cuántico. Superconducción a temperatura ambiente es computación cuántica a temperatura ambiente."
   },
   {
     "objectID": "posts/clases/2.html#medición",
     "href": "posts/clases/2.html#medición",
-    "title": "4 Propiedades cuanticas divertidas",
-    "section": "",
-    "text": "Colapsar infinitos estados en un único estado de mierda (aleatoria). La dehorencia es simplemente que el entorno se mete y mide antes de tiempo."
+    "title": "2",
+    "section": "4. Medición 🫠",
+    "text": "4. Medición 🫠\nColapsar infinitos estados en un único estado de mierda (aleatoria). La dehorencia es simplemente que el entorno se mete y mide antes de tiempo."
   },
   {
     "objectID": "posts/clases/5.html",
     "href": "posts/clases/5.html",
-    "title": "notas",
+    "title": "5",
     "section": "",
-    "text": "Al incrementar por 1 el numero de \\(n\\) qubits, el numero de estados del sistema crece \\(dim(n)=2^n\\)\n\\(n=1\\) \\(|0\\rangle, |1\\rangle\\)\n\\(n=2\\) \\(|0\\rangle \\otimes |0\\rangle=|00\\rangle\\) \\(|0\\rangle \\otimes |1\\rangle=|01\\rangle\\) \\(|1\\rangle \\otimes |0\\rangle=|10\\rangle\\) \\(|1\\rangle \\otimes |1\\rangle=|11\\rangle\\)\n\\(n=3\\) \\(|0\\rangle \\otimes |00\\rangle=|000\\rangle\\) \\(|0\\rangle \\otimes |01\\rangle=|001\\rangle\\) \\(|0\\rangle \\otimes |10\\rangle=|010\\rangle\\) \\(|0\\rangle \\otimes |11\\rangle=|011\\rangle\\) \\(|1\\rangle \\otimes |00\\rangle=|100\\rangle\\) \\(|1\\rangle \\otimes |01\\rangle=|101\\rangle\\) \\(|1\\rangle \\otimes |10\\rangle=|110\\rangle\\) \\(|1\\rangle \\otimes |11\\rangle=|111\\rangle\\)\nla diversión de la notación de dirac es que puedo caracterizar cualquier operador lineal por como transforma las bases."
+    "text": "Al incrementar por 1 el numero de \\(n\\) qubits, el numero de estados del sistema crece \\(dim(n)=2^n\\)\n\\(n=1\\) \\(|0\\rangle, |1\\rangle\\)\n\\(n=2\\) \\(|0\\rangle \\otimes |0\\rangle=|00\\rangle\\) \\(|0\\rangle \\otimes |1\\rangle=|01\\rangle\\) \\(|1\\rangle \\otimes |0\\rangle=|10\\rangle\\) \\(|1\\rangle \\otimes |1\\rangle=|11\\rangle\\)\n\\(n=3\\) \\(|0\\rangle \\otimes |00\\rangle=|000\\rangle\\) \\(|0\\rangle \\otimes |01\\rangle=|001\\rangle\\) \\(|0\\rangle \\otimes |10\\rangle=|010\\rangle\\) \\(|0\\rangle \\otimes |11\\rangle=|011\\rangle\\) \\(|1\\rangle \\otimes |00\\rangle=|100\\rangle\\) \\(|1\\rangle \\otimes |01\\rangle=|101\\rangle\\) \\(|1\\rangle \\otimes |10\\rangle=|110\\rangle\\) \\(|1\\rangle \\otimes |11\\rangle=|111\\rangle\\)\nla diversión de la notación de dirac es que puedo caracterizar cualquier operador lineal por como transforma las bases.\n\n\nEn Hadamard (que es como girar las bases 45° )hay 2 estados útiles. \\[H|0\\rangle=\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}}=|+\\rangle\\] \\[H|1\\rangle=\\frac{|0\\rangle-|1\\rangle}{\\sqrt{2}}=|-\\rangle\\] uso de notación de dirac para probar como \\(\\langle+|-\\rangle\\) \\[=(\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}})(\\frac{|0\\rangle-|1\\rangle}{\\sqrt{2}})\\]\n\\[=(\\frac{\\langle0|0\\rangle-\\langle0|1\\rangle+\\langle1|0\\rangle-\\langle1|1\\rangle}{\\sqrt{2}})\\] producto interno de una base consigo misma = 1, con otra base =0 \\[=\\frac{1-0+0-1}{2}=0\\]\nbtw \\[ \\langle+|+\\rangle=(\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}})(\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}})=1\\]\nsegundo btw: aplicación divertida\nAplicar n Hadamards sobre n qubits genera numeros aleatorios entre 0 y \\(2^n-1\\). Aleatorios de verdá, verdá.\n\\((\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)= \\frac{|00\\rangle + |11\\rangle}{2}\\)"
   },
   {
     "objectID": "posts/clases/5.html#diapositiva-compuertas-pauli-dim-y-hadamard",
     "href": "posts/clases/5.html#diapositiva-compuertas-pauli-dim-y-hadamard",
-    "title": "notas",
-    "section": "Diapositiva compuertas Pauli-dim y Hadamard",
-    "text": "Diapositiva compuertas Pauli-dim y Hadamard\nEn Hadamard (que es como girar las bases 45° )hay 2 estados útiles. \\[H|0\\rangle=\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}}=|+\\rangle\\] \\[H|1\\rangle=\\frac{|0\\rangle-|1\\rangle}{\\sqrt{2}}=|-\\rangle\\] uso de notación de dirac para probar como \\(\\langle+|-\\rangle\\) \\[=(\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}})(\\frac{|0\\rangle-|1\\rangle}{\\sqrt{2}})\\]\n\\[=(\\frac{\\langle0|0\\rangle-\\langle0|1\\rangle+\\langle1|0\\rangle-\\langle1|1\\rangle}{\\sqrt{2}})\\] producto interno de una base consigo misma = 1, con otra base =0 \\[=\\frac{1-0+0-1}{2}=0\\]\nbtw \\[ \\langle+|+\\rangle=(\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}})(\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}})=1\\]\nsegundo btw: aplicación divertida\nAplicar n Hadamards sobre n qubits genera numeros aleatorios entre 0 y \\(2^n-1\\). Aleatorios de verdá, verdá.\n\\((\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)= \\frac{|00\\rangle + |11\\rangle}{2}\\)"
+    "title": "5",
+    "section": "",
+    "text": "En Hadamard (que es como girar las bases 45° )hay 2 estados útiles. \\[H|0\\rangle=\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}}=|+\\rangle\\] \\[H|1\\rangle=\\frac{|0\\rangle-|1\\rangle}{\\sqrt{2}}=|-\\rangle\\] uso de notación de dirac para probar como \\(\\langle+|-\\rangle\\) \\[=(\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}})(\\frac{|0\\rangle-|1\\rangle}{\\sqrt{2}})\\]\n\\[=(\\frac{\\langle0|0\\rangle-\\langle0|1\\rangle+\\langle1|0\\rangle-\\langle1|1\\rangle}{\\sqrt{2}})\\] producto interno de una base consigo misma = 1, con otra base =0 \\[=\\frac{1-0+0-1}{2}=0\\]\nbtw \\[ \\langle+|+\\rangle=(\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}})(\\frac{|0\\rangle+|1\\rangle}{\\sqrt{2}})=1\\]\nsegundo btw: aplicación divertida\nAplicar n Hadamards sobre n qubits genera numeros aleatorios entre 0 y \\(2^n-1\\). Aleatorios de verdá, verdá.\n\\((\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)= \\frac{|00\\rangle + |11\\rangle}{2}\\)"
   },
   {
     "objectID": "posts/covecs/covecs.html",
@@ -256,21 +256,21 @@
     "href": "posts/dirac/dirac.html",
     "title": "Dirac",
     "section": "",
-    "text": "Vector en notacón dirac es así\n\\( v v \\)\nY el vector 0 es 0 :3\nColección de vectores es así \\( { v_0 , …v_n } , … , n \\)\nEl vector 0 es una excepción y no cambia de notación. 0 = 0 :3\nEl dual vector es \\( v = [a_{1}* a_n*] \\)\nEl inner product es \\[ v_1 w_1 = _{i=1}^n a_i^*a_i \\]\nY si tuvieramos una base ortonormal \\( { v_0 , …v_n } \\) entonces \\[ v_i v_j = _{ij}, \\]\nY la norma de un vector \\(|v| = \\sqrt{v v } \\)\nEl outer product de dos vectores se denota \\( v v \\)\n\n\n\nnota\n\n\n\n\n\nEsto lo irá a transcribir mi madre\n\n\nLa base computacional de \\( { , … , n-1 } \\) tambien se le conoce como la base canónica. A veces va de 1 a n.\n\n\n\nBase Computacional\n\n\nY la suma normalizada de los vectores de la base computacional definen el vector \\( | D \\) llamado estado diagonal.\n\n\n\nDiagonal State\n\n\nY cuando n=2 \\[ + = \\]\n\n\nUn qubit es un vector unitario en un espacio vectorial \\( ^2 \\) y un qubit genérico \\( \\) se representa con: \\( = + \\)\ndonde alpha y beta, son las amplitudes de estado, cumplen \\( ||^2 +||^2 = 1\\) y la base computacional es el set \\( { |0,|1} \\)\nLos términos de vector estado, o estado can a ser usados para significar vector unitario en espacio de Hilbert. SI transformamos la primera ecuación metiendo la segunda y haciendo una segunda transformación, un qubit se puede definir con solo 2 números reales. (Se lee que psi depende de phi y theta btw) \\( (, ) \\)\n\\[ |= cos|0+ e^{i} sinsin|1\\]\nY los componentes de un vector en la Bloch Sphere se ven así.\n\\[ \\[\\begin{align}  x=\\begin{bmatrix} sin\\theta cos\\phi & sin\\theta sin\\phi & cos\\theta \\end{bmatrix}^T \\label{vectorLatex} \\end{align}\\] \\]"
+    "text": "Vector en notacón dirac es así\n$ v v $\nY el vector 0 es 0 :3\nColección de vectores es así $ { v_0 , …v_n } , … , n $\nEl vector 0 es una excepción y no cambia de notación. 0 = 0 :3\nEl dual vector es $ v = [a_{1}* a_n*] $\nEl inner product es \\[ \\langle v_1 \\vert w_1 \\rangle = \\sum_{i=1}^n a_i^*a_i \\]\nY si tuvieramos una base ortonormal $ { v_0 , …v_n } $ entonces \\[ \\langle v_i \\vert v_j \\rangle = \\delta_{ij}, \\]\nY la norma de un vector $|v| = \\sqrt{v v } $\nEl outer product de dos vectores se denota $ v v $\n\n\n\nnota\n\n\n\n\n\nEsto lo irá a transcribir mi madre\n\n\nLa base computacional de $ { , … , n-1 } $ tambien se le conoce como la base canónica. A veces va de 1 a n.\n\n\n\nBase Computacional\n\n\nY la suma normalizada de los vectores de la base computacional definen el vector $ | D $ llamado estado diagonal.\n\n\n\nDiagonal State\n\n\nY cuando n=2 \\[ \\vert + \\rangle = \\frac{\\vert 0 \\rangle + \\vert 1 \\rangle}{\\sqrt{2}} \\]\n\n\nUn qubit es un vector unitario en un espacio vectorial \\(\\mathbb{C}^2\\) y un qubit genérico \\(\\vert \\psi \\rangle\\) se representa con: \\(\\vert \\psi \\rangle = \\alpha \\vert 0\\rangle +\\beta \\vert 1 \\rangle\\)\ndonde alpha y beta, son las amplitudes de estado, cumplen \\(|\\alpha|^2 +|\\beta|^2 = 1\\) y la base computacional es el set \\(\\{ |0\\rangle,|1\\rangle \\}\\)\nLos términos de vector estado, o estado can a ser usados para significar vector unitario en espacio de Hilbert. SI transformamos la primera ecuación metiendo la segunda y haciendo una segunda transformación, un qubit se puede definir con solo 2 números reales. (Se lee que psi depende de phi y theta btw) \\(\\psi(\\phi, \\theta)\\)\n\\[|\\psi\\rangle = cos\\frac{\\theta}{2}|0\\rangle + e^{i\\phi} sin\\frac{\\theta}{2}sin|1\\rangle\\]\nY los componentes de un vector en la Bloch Sphere se ven así.\n\\[\\begin{align}  x=\\begin{bmatrix} sin\\theta cos\\phi & sin\\theta sin\\phi & cos\\theta \\end{bmatrix}^T \\label{vectorLatex} \\end{align}\\]"
   },
   {
     "objectID": "posts/dirac/dirac.html#quibit-y-la-bloch-sphere",
     "href": "posts/dirac/dirac.html#quibit-y-la-bloch-sphere",
     "title": "Dirac",
     "section": "",
-    "text": "Un qubit es un vector unitario en un espacio vectorial \\( ^2 \\) y un qubit genérico \\( \\) se representa con: \\( = + \\)\ndonde alpha y beta, son las amplitudes de estado, cumplen \\( ||^2 +||^2 = 1\\) y la base computacional es el set \\( { |0,|1} \\)\nLos términos de vector estado, o estado can a ser usados para significar vector unitario en espacio de Hilbert. SI transformamos la primera ecuación metiendo la segunda y haciendo una segunda transformación, un qubit se puede definir con solo 2 números reales. (Se lee que psi depende de phi y theta btw) \\( (, ) \\)\n\\[ |= cos|0+ e^{i} sinsin|1\\]\nY los componentes de un vector en la Bloch Sphere se ven así.\n\\[ \\[\\begin{align}  x=\\begin{bmatrix} sin\\theta cos\\phi & sin\\theta sin\\phi & cos\\theta \\end{bmatrix}^T \\label{vectorLatex} \\end{align}\\] \\]"
+    "text": "Un qubit es un vector unitario en un espacio vectorial \\(\\mathbb{C}^2\\) y un qubit genérico \\(\\vert \\psi \\rangle\\) se representa con: \\(\\vert \\psi \\rangle = \\alpha \\vert 0\\rangle +\\beta \\vert 1 \\rangle\\)\ndonde alpha y beta, son las amplitudes de estado, cumplen \\(|\\alpha|^2 +|\\beta|^2 = 1\\) y la base computacional es el set \\(\\{ |0\\rangle,|1\\rangle \\}\\)\nLos términos de vector estado, o estado can a ser usados para significar vector unitario en espacio de Hilbert. SI transformamos la primera ecuación metiendo la segunda y haciendo una segunda transformación, un qubit se puede definir con solo 2 números reales. (Se lee que psi depende de phi y theta btw) \\(\\psi(\\phi, \\theta)\\)\n\\[|\\psi\\rangle = cos\\frac{\\theta}{2}|0\\rangle + e^{i\\phi} sin\\frac{\\theta}{2}sin|1\\rangle\\]\nY los componentes de un vector en la Bloch Sphere se ven así.\n\\[\\begin{align}  x=\\begin{bmatrix} sin\\theta cos\\phi & sin\\theta sin\\phi & cos\\theta \\end{bmatrix}^T \\label{vectorLatex} \\end{align}\\]"
   },
   {
     "objectID": "posts/dirac/dirac.html#operadores-especiales",
     "href": "posts/dirac/dirac.html#operadores-especiales",
     "title": "Dirac",
     "section": "Operadores especiales",
-    "text": "Operadores especiales\n\n\n\nalt text\n\n\nA parte,\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\nComo las matrices de Pauli unitarias y son hermitian,\no \\( A^{}=A \\), también aplican las propiedades que son normal \\( A{}A=AA{} \\), y por tanto diagonalizable. Y por ser unitarias los valores propios son \\( \\)\n\n\n\nalt text"
+    "text": "Operadores especiales\n\n\n\nalt text\n\n\nA parte,\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\nComo las matrices de Pauli unitarias y son hermitian,\no $ A^{}=A $, también aplican las propiedades que son normal $ A{}A=AA{} $, y por tanto diagonalizable. Y por ser unitarias los valores propios son $ $\n\n\n\nalt text"
   },
   {
     "objectID": "posts/dirac/dirac.html#operator-functions",
@@ -362,5 +362,19 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html#educación",
+    "href": "about.html#educación",
+    "title": "About",
+    "section": "Educación",
+    "text": "Educación\nUniversidad EAFIT, Medellín | Medellín CO"
+  },
+  {
+    "objectID": "about.html#cosas",
+    "href": "about.html#cosas",
+    "title": "About",
+    "section": "Cosas",
+    "text": "Cosas\nAquí se aplican las cosas para poner después."
   }
 ]
