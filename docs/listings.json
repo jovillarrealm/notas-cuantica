@@ -1,0 +1,31 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/bilinearforms/bilinearforms.html",
+      "/posts/clases/1.html",
+      "/posts/clases/2.html",
+      "/posts/clases/3.html",
+      "/posts/clases/5.html",
+      "/posts/clases/6.html",
+      "/posts/covecs/covecs.html",
+      "/posts/definicion/definicion.html",
+      "/posts/dirac/dirac.html",
+      "/posts/dirac/m.html",
+      "/posts/genvecovec/genvecovec.html",
+      "/posts/linearmaps/linearmaps.html",
+      "/posts/metrictensor/metrictensor.html",
+      "/posts/prelude.html",
+      "/posts/shor/shor.html",
+      "/posts/SUMMARY.html",
+      "/posts/thegag/thegad.html",
+      "/posts/thegag/thegag.html",
+      "/posts/tpvskp/tpvskp.html",
+      "/posts/transformations/transformations.html",
+      "/posts/vecdef/vecdef.html",
+      "/posts/zelist.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  }
+]
