@@ -1,0 +1,1 @@
+Pasar notas de cuantica a quarto para ver que onda con eso.

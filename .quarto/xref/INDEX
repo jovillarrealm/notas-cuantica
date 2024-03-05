@@ -1,0 +1,80 @@
+{
+  "index.qmd": {
+    "index.html": "cc2266a3"
+  },
+  "about.qmd": {
+    "about.html": "8d1f3f4c"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "0435c9af"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "d4f2ed28"
+  },
+  "posts/bilinearforms/bilinearforms.md": {
+    "bilinearforms.html": "47128bf5"
+  },
+  "posts/clases/1.md": {
+    "1.html": "6a8bfa71"
+  },
+  "posts/clases/2.md": {
+    "2.html": "cc51f001"
+  },
+  "posts/clases/3.md": {
+    "3.html": "9e8ed076"
+  },
+  "posts/clases/5.md": {
+    "5.html": "e6ed34dc"
+  },
+  "posts/clases/6.md": {
+    "6.html": "cad61cec"
+  },
+  "posts/covecs/covecs.md": {
+    "covecs.html": "3932eee0"
+  },
+  "posts/definicion/definicion.md": {
+    "definicion.html": "ef5afe9d"
+  },
+  "posts/dirac/dirac.md": {
+    "dirac.html": "4df6ca6f"
+  },
+  "posts/dirac/m.md": {
+    "m.html": "74597ea5"
+  },
+  "posts/genvecovec/genvecovec.md": {
+    "genvecovec.html": "64522d63"
+  },
+  "posts/linearmaps/linearmaps.md": {
+    "linearmaps.html": "a687a8b8"
+  },
+  "posts/metrictensor/metrictensor.md": {
+    "metrictensor.html": "03226b09"
+  },
+  "posts/prelude.md": {
+    "prelude.html": "4983542e"
+  },
+  "posts/shor/shor.md": {
+    "shor.html": "54cfdb36"
+  },
+  "posts/SUMMARY.md": {
+    "SUMMARY.html": "db3ba8b8"
+  },
+  "posts/thegag/thegad.md": {
+    "thegad.html": "6fe359b6"
+  },
+  "posts/thegag/thegag.md": {
+    "thegag.html": "74eb726f"
+  },
+  "posts/tpvskp/tpvskp.md": {
+    "tpvskp.html": "845f79c9"
+  },
+  "posts/transformations/transformations.md": {
+    "transformations.html": "e79c4f6e"
+  },
+  "posts/vecdef/vecdef.md": {
+    "vecdef.html": "eb7285a6"
+  },
+  "posts/zelist.md": {
+    "zelist.html": "f2336ece"
+  }
+}
