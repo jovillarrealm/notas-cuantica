@@ -1,0 +1,15 @@
+# 7
+
+El cerebro es cuántico? Fractal?
+
+Las estructuras neuronales son medio fractales, como mínimo es [medio autosimilar](https://www.youtube.com/watch?v=gB9n2gHsHN4).
+
+Even better, el cerebro es estocástico?
+
+### Paralelismo cuántico
+
+Si con superposiciones, entrelazamiento, e interferencia puedo medir algo muy paralelamente
+
+### ALgoritmo para hacerle ingeniería inversa a $U_f$
+
+U_f =

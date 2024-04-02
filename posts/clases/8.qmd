@@ -1,0 +1,32 @@
+Máquinas de turing con oráculo (acelerador pero de aparato de cosas no resolvibles por máquina de Turing).
+
+![](images/paste-2.png) $$|1\oplus f(x)\rangle \equiv |¬f(x)\rangle$$
+
+![](images/paste-1.png)
+
+Modificar amplitud permite aumentar probabilidad de obtener estados deseados, con suficientes shots.
+
+En cuántica, la inversa normalmente es la traspuesta conjugada $A^\dagger$.
+
+![](images/paste-4.png)
+
+Formas de obtener todas las compuertas a partir de Toffoli:
+
+NOT = q1 & q2 en 1 permanente. q3 =\> ¬q3
+
+AND = q3 en 0. q1 q2 =\> q1 & q2
+
+OR = some BS con 6 qubits que no se va a poder hacer
+
+## Grover
+
+Búsqueda no estructurada, speedup respecto a la clásica $N=>\sqrt{N}$
+
+Los $\sqrt{N}$ Pasos de Grover
+
+<https://www.youtube.com/watch?v=PAVKuYv1HC8>
+
+1.  Inversión de fase: forx in superposition $(x_i$ if $x\neq x^* else\ -x)$
+2.  Inversion about mean:
+
+Cual es el equivalente de circuitos en qiskit para esto?

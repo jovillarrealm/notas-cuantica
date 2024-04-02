@@ -1,0 +1,51 @@
+## Algoritmo de Deutsch
+
+Orden LSB
+
+![](image-3.png)
+
+![](images/paste-5.png)
+
+Hay 2 tipos de funciones $f(x)$:
+
+Constantes y balanceadas. Las constantes son 0 y 1 sin importar el input.
+
+Las balanceadas tienen el mismo número de 0s que 1s. Pueden ser de negación, o identidad
+
+En inputs grandes esta cosa tiene la propiedad que va a determinar para inputs grandes, que una función va a ser constante o balanceada con una sola evaluación de la función.
+
+$|\psi_0\rangle=|01\rangle$
+
+$|\psi_1\rangle=|-+\rangle=\frac{1}{2}(|00\rangle+|01\rangle+|10\rangle+|11\rangle)$
+
+con
+
+$U_f|-x\rangle=(-1)^{f(x)}|-x\rangle= U_f\frac{|-0\rangle+|-1\rangle}{\sqrt{2}}$
+
+$|\psi_2\rangle=\frac{(-1)^{f(0)}|-0\rangle+(-1)^{f(1)}|-1\rangle}{\sqrt{2}}$
+
+Tras Hadamard los LSB se vuelven + y -.
+
+$|\psi_3\rangle=\frac{(-1)^{f(0)}|-+\rangle+(-1)^{f(1)}|-+-\rangle}{\sqrt{2}}=|-\rangle\otimes\frac{(-1)^{f(0)}|+\rangle+(-1)^{f(1)}|-\rangle}{\sqrt{2}}=$
+
+Si la funcion es constante f(0)=f(1):
+
+$|\psi_3\rangle=\pm|-0\rangle$
+
+Pero si es balanceada entonces siempre
+
+$|\psi_3\rangle=\pm|-1\rangle$
+
+### Con $n$ funciones
+
+Con n=3 habría $2^3=8$
+
+y habría $2^{2^{n=3}}=2^8=256$ valores de $f(x)$
+
+Aquí se restringe a las funciones que son constantes y balanceadas, de otra manera puede dar cualquier cosa
+
+![](images/paste-6.png)
+
+Aquí, $x \in \{0,1\}^n$ se refiere a $x=000, 001, 010, ...$
+
+Los LSB están en x en este ejemplo también.
