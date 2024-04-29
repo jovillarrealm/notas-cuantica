@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -158,25 +158,20 @@ window.Quarto = {
 <p>No es posible clonar un estado cuantico no conocido.</p>
 <p>Se puede freaking teleportar, tho.</p>
 <p><span class="math inline">\(\psi\)</span></p>
-<section id="diapositiva-de-teleportación" class="level2">
-<h2 class="anchored" data-anchor-id="diapositiva-de-teleportación">Diapositiva de Teleportación</h2>
-<p>LSB =<span class="math inline">\(\psi\)</span> <span class="math inline">\(|\beta_{00}\rangle=\frac{|00\rangle+|11\rangle}{\sqrt{2}}\)</span> Estado inicial:<span class="math inline">\(|\psi\rangle|\beta_{00}\rangle=|\psi_0\rangle\)</span></p>
+<p><img src="image.png" class="img-fluid" alt="Circuito"> <img src="image-1.png" class="img-fluid" alt="psi1 psi2"> <img src="image-2.png" class="img-fluid" alt="psi3"> LSB =<span class="math inline">\(\psi\)</span> <span class="math inline">\(|\beta_{00}\rangle=\frac{|00\rangle+|11\rangle}{\sqrt{2}}\)</span> Estado inicial:<span class="math inline">\(|\psi\rangle|\beta_{00}\rangle=|\psi_0\rangle\)</span></p>
 <p><span class="math inline">\(|\psi_2\rangle=1/2*(\alpha|000\rangle + \alpha |001\rangle + \beta|100\rangle - \beta|011\rangle+\)</span> <span class="math inline">\(\alpha|110\rangle + \alpha|111\rangle+\beta|100\rangle - \beta|101\rangle)\)</span></p>
-<p><span class="math inline">\(|\psi_3\rangle\)</span> en 4 casos: 1. M1=0, M2 =0 Solo quedan los estados <span class="math inline">\(\frac{\alpha k|000\rangle+\beta k|100\rangle}{2}\)</span> donde debe haber un <span class="math inline">\(k\)</span> que devuelva la norma 1. <span class="math inline">\(k=2\)</span> en este caso</p>
-<pre><code>obtenemos el resultado $\alpha|000\rangle +\beta|100\rangle$
-y poniendolo bonito: 
-
-$|\psi_4\rangle(\alpha|0\rangle + \beta|1\rangle)\otimes |00\rangle$ 
-
-No corre X, No corre Z</code></pre>
-<ol start="2" type="1">
-<li><p>M1=0, M2 =1 pasa <span class="math inline">\(k=2\)</span> y <span class="math inline">\((\beta|0\rangle + \alpha|1\rangle)\otimes |10\rangle\)</span> Corre X, No Z <span class="math inline">\(|\psi_4\rangle=(\alpha|0\rangle + \beta|1\rangle)\otimes |10\rangle\)</span></p></li>
+<p><span class="math inline">\(|\psi_3\rangle\)</span> en 4 casos:</p>
+<ol type="1">
+<li>M1=0, M2 =0 Solo quedan los estados <span class="math inline">\(\frac{\alpha k|000\rangle+\beta k|100\rangle}{2}\)</span> donde debe haber un <span class="math inline">\(k\)</span> que devuelva la norma 1. <span class="math inline">\(k=2\)</span> en este caso obtenemos el resultado <span class="math inline">\(\alpha|000\rangle +\beta|100\rangle\)</span> y poniendolo bonito:</li>
+</ol>
+<p><span class="math inline">\(|\psi_4\rangle(\alpha|0\rangle + \beta|1\rangle)\otimes |00\rangle\)</span></p>
+<p>No corre X, No corre Z 2. M1=0, M2 =1 pasa <span class="math inline">\(k=2\)</span> y <span class="math inline">\((\beta|0\rangle + \alpha|1\rangle)\otimes |10\rangle\)</span> Corre X, No Z <span class="math inline">\(|\psi_4\rangle=(\alpha|0\rangle + \beta|1\rangle)\otimes |10\rangle\)</span></p>
+<ol start="3" type="1">
 <li><p>M1=1, M2=0 pasa <span class="math inline">\(k=2\)</span> y <span class="math inline">\((\alpha|0\rangle - \beta|1\rangle)\otimes |01\rangle\)</span> No Corre X, Si Z <span class="math inline">\(|\psi_4\rangle=(\alpha|0\rangle + \beta|1\rangle)\otimes |01\rangle\)</span></p></li>
 <li><p>M1=1, M2=1 pasa <span class="math inline">\(k=2\)</span> y <span class="math inline">\((- \beta|0\rangle +\alpha|1\rangle)\otimes |11\rangle\)</span> Corre X, y Z <span class="math inline">\(|\psi_4\rangle=(\alpha|0\rangle + \beta|1\rangle)\otimes |11\rangle\)</span></p></li>
 </ol>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -259,6 +254,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -293,7 +306,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

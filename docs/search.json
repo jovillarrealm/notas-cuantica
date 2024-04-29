@@ -144,7 +144,7 @@
     "href": "posts/clases/6.html",
     "title": "6",
     "section": "",
-    "text": "Demostración de Entrelazamiento no puede resultar de estados simples: \\((\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)= \\frac{|00\\rangle + |11\\rangle}{2}\\)?\nEmpezamos desde dos estado simples \\[(\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)\\]\n\\[=(\\alpha_0\\alpha_1|00\\rangle + \\alpha_0\\beta_0|01\\rangle)(\\beta_0\\alpha_1|10\\rangle + \\beta_0\\beta_1|11\\rangle)\\] Pero para alcanzar de un lado a otro debemos llegar a \\[= \\frac{1}{\\sqrt{2}}*|00\\rangle + 0*|01\\rangle+0*|10\\rangle + \\frac{1}{\\sqrt{2}}*|11\\rangle)\\]debemos revisar posibles valores de \\(\\alpha_i,\\beta_j\\) \\(\\alpha_0\\alpha_1=\\frac{1}{\\sqrt{2}}\\) \\(\\alpha_0\\beta_1=0\\) \\(\\beta_0\\alpha_1=0\\) \\(\\beta_0\\beta_1=\\frac{1}{\\sqrt{2}}\\)\n\\(i)\\) suponemos \\(\\alpha_0=0\\), \\(\\beta_1\\ne0\\), contradicción =&gt; \\(\\alpha_0\\ne0\\) \\(i)\\) suponemos \\(\\beta_1=0\\), \\(\\alpha_0\\ne0\\), contradicción =&gt; \\(\\beta_1\\ne0\\) \\(QED\\)\nNo es posible clonar un estado cuantico no conocido.\nSe puede freaking teleportar, tho.\n\\(\\psi\\)\n\n\nLSB =\\(\\psi\\) \\(|\\beta_{00}\\rangle=\\frac{|00\\rangle+|11\\rangle}{\\sqrt{2}}\\) Estado inicial:\\(|\\psi\\rangle|\\beta_{00}\\rangle=|\\psi_0\\rangle\\)\n\\(|\\psi_2\\rangle=1/2*(\\alpha|000\\rangle + \\alpha |001\\rangle + \\beta|100\\rangle - \\beta|011\\rangle+\\) \\(\\alpha|110\\rangle + \\alpha|111\\rangle+\\beta|100\\rangle - \\beta|101\\rangle)\\)\n\\(|\\psi_3\\rangle\\) en 4 casos: 1. M1=0, M2 =0 Solo quedan los estados \\(\\frac{\\alpha k|000\\rangle+\\beta k|100\\rangle}{2}\\) donde debe haber un \\(k\\) que devuelva la norma 1. \\(k=2\\) en este caso\nobtenemos el resultado $\\alpha|000\\rangle +\\beta|100\\rangle$\ny poniendolo bonito: \n\n$|\\psi_4\\rangle(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |00\\rangle$ \n\nNo corre X, No corre Z\n\nM1=0, M2 =1 pasa \\(k=2\\) y \\((\\beta|0\\rangle + \\alpha|1\\rangle)\\otimes |10\\rangle\\) Corre X, No Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |10\\rangle\\)\nM1=1, M2=0 pasa \\(k=2\\) y \\((\\alpha|0\\rangle - \\beta|1\\rangle)\\otimes |01\\rangle\\) No Corre X, Si Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |01\\rangle\\)\nM1=1, M2=1 pasa \\(k=2\\) y \\((- \\beta|0\\rangle +\\alpha|1\\rangle)\\otimes |11\\rangle\\) Corre X, y Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |11\\rangle\\)"
+    "text": "6\nDemostración de Entrelazamiento no puede resultar de estados simples: \\((\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)= \\frac{|00\\rangle + |11\\rangle}{2}\\)?\nEmpezamos desde dos estado simples \\[(\\alpha_0|0\\rangle + \\beta_0|1\\rangle)(\\alpha_1|0\\rangle + \\beta_1|1\\rangle)\\]\n\\[=(\\alpha_0\\alpha_1|00\\rangle + \\alpha_0\\beta_0|01\\rangle)(\\beta_0\\alpha_1|10\\rangle + \\beta_0\\beta_1|11\\rangle)\\] Pero para alcanzar de un lado a otro debemos llegar a \\[= \\frac{1}{\\sqrt{2}}*|00\\rangle + 0*|01\\rangle+0*|10\\rangle + \\frac{1}{\\sqrt{2}}*|11\\rangle)\\]debemos revisar posibles valores de \\(\\alpha_i,\\beta_j\\) \\(\\alpha_0\\alpha_1=\\frac{1}{\\sqrt{2}}\\) \\(\\alpha_0\\beta_1=0\\) \\(\\beta_0\\alpha_1=0\\) \\(\\beta_0\\beta_1=\\frac{1}{\\sqrt{2}}\\)\n\\(i)\\) suponemos \\(\\alpha_0=0\\), \\(\\beta_1\\ne0\\), contradicción =&gt; \\(\\alpha_0\\ne0\\) \\(i)\\) suponemos \\(\\beta_1=0\\), \\(\\alpha_0\\ne0\\), contradicción =&gt; \\(\\beta_1\\ne0\\) \\(QED\\)\nNo es posible clonar un estado cuantico no conocido.\nSe puede freaking teleportar, tho.\n\\(\\psi\\)\n   LSB =\\(\\psi\\) \\(|\\beta_{00}\\rangle=\\frac{|00\\rangle+|11\\rangle}{\\sqrt{2}}\\) Estado inicial:\\(|\\psi\\rangle|\\beta_{00}\\rangle=|\\psi_0\\rangle\\)\n\\(|\\psi_2\\rangle=1/2*(\\alpha|000\\rangle + \\alpha |001\\rangle + \\beta|100\\rangle - \\beta|011\\rangle+\\) \\(\\alpha|110\\rangle + \\alpha|111\\rangle+\\beta|100\\rangle - \\beta|101\\rangle)\\)\n\\(|\\psi_3\\rangle\\) en 4 casos:\n\nM1=0, M2 =0 Solo quedan los estados \\(\\frac{\\alpha k|000\\rangle+\\beta k|100\\rangle}{2}\\) donde debe haber un \\(k\\) que devuelva la norma 1. \\(k=2\\) en este caso obtenemos el resultado \\(\\alpha|000\\rangle +\\beta|100\\rangle\\) y poniendolo bonito:\n\n\\(|\\psi_4\\rangle(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |00\\rangle\\)\nNo corre X, No corre Z 2. M1=0, M2 =1 pasa \\(k=2\\) y \\((\\beta|0\\rangle + \\alpha|1\\rangle)\\otimes |10\\rangle\\) Corre X, No Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |10\\rangle\\)\n\nM1=1, M2=0 pasa \\(k=2\\) y \\((\\alpha|0\\rangle - \\beta|1\\rangle)\\otimes |01\\rangle\\) No Corre X, Si Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |01\\rangle\\)\nM1=1, M2=1 pasa \\(k=2\\) y \\((- \\beta|0\\rangle +\\alpha|1\\rangle)\\otimes |11\\rangle\\) Corre X, y Z \\(|\\psi_4\\rangle=(\\alpha|0\\rangle + \\beta|1\\rangle)\\otimes |11\\rangle\\)"
   },
   {
     "objectID": "posts/clases/6.html#diapositiva-de-teleportación",
@@ -172,7 +172,7 @@
     "href": "index.html",
     "title": "notas",
     "section": "",
-    "text": "Bilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCovectors, Components, Transformation Rules\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefiniciones de un Tensor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDirac\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVision de producto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTensor Product vs Kronecker Product\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Metric Tensor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Switcheroo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransformations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector definition\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTo Dos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 2, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Bilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrover\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n7\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrover\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgoritmo de Deutsch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCovectors, Components, Transformation Rules\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefiniciones de un Tensor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDirac\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDirac\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVision de producto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTensor Product vs Kronecker Product\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Maps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Metric Tensor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInicio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBilinear Forms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Switcheroo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransformations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVector definition\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTo Dos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 2, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -376,5 +376,96 @@
     "title": "About",
     "section": "Cosas",
     "text": "Cosas\nAquí se aplican las cosas para poner después."
+  },
+  {
+    "objectID": "posts/clases/10.html",
+    "href": "posts/clases/10.html",
+    "title": "Grover",
+    "section": "",
+    "text": "Grover Algorithm & Berkeley Playlist\nGrover Algorithm en Qiskit\n\n\n\n\n\nGrover’s Algorithm\n\n\nLa parte de Phase Inversion consiste en una función oráculo que invierta la amplitud de \\(x^*\\).\n\n\n\nPhase inversion\n\n\nHacer eso baja la media de f(x) de ahora en adelante.\nLuego sigue Inversion about the mean. Calcular la media por alguna razón es fácil.\n\nDonde \\(U_{\\ne0^{n}}\\) en notación de dirac es \\(U_{\\ne 0^n}=2|0\\rangle\\langle 0| - 1\\) en forma de matriz es:\n\n\n\n\\(U_{\\ne 0^n}\\)\n\n\nTambién función oráculo que mueva cosas alrededor de la media\n$$ _0 -&gt; +*_{2^{n-1}}\n_1 -&gt; +*_{2^{n-1}+1}\n…\n_{2^{n-1}-1} -&gt; _{2^{n-1}-1}+_{2^{n-1}-1}\n_0 -&gt; +*_{2^{n-1}}\n_1 -&gt; +*_{2^{n-1}+1}\n…\n -&gt;* _{2^{n-1}-1}+_{2^{n-1}-1} $$"
+  },
+  {
+    "objectID": "posts/clases/10.html#circuito-principal",
+    "href": "posts/clases/10.html#circuito-principal",
+    "title": "Grover",
+    "section": "",
+    "text": "Grover’s Algorithm\n\n\nLa parte de Phase Inversion consiste en una función oráculo que invierta la amplitud de \\(x^*\\).\n\n\n\nPhase inversion\n\n\nHacer eso baja la media de f(x) de ahora en adelante.\nLuego sigue Inversion about the mean. Calcular la media por alguna razón es fácil.\n\nDonde \\(U_{\\ne0^{n}}\\) en notación de dirac es \\(U_{\\ne 0^n}=2|0\\rangle\\langle 0| - 1\\) en forma de matriz es:\n\n\n\n\\(U_{\\ne 0^n}\\)\n\n\nTambién función oráculo que mueva cosas alrededor de la media\n$$ _0 -&gt; +*_{2^{n-1}}\n_1 -&gt; +*_{2^{n-1}+1}\n…\n_{2^{n-1}-1} -&gt; _{2^{n-1}-1}+_{2^{n-1}-1}\n_0 -&gt; +*_{2^{n-1}}\n_1 -&gt; +*_{2^{n-1}+1}\n…\n -&gt;* _{2^{n-1}-1}+_{2^{n-1}-1} $$"
+  },
+  {
+    "objectID": "posts/clases/9.html",
+    "href": "posts/clases/9.html",
+    "title": "notas",
+    "section": "",
+    "text": "Orden LSB\n\n\nHay 2 tipos de funciones \\(f(x)\\):\nConstantes y balanceadas. Las constantes son 0 y 1 sin importar el input.\nLas balanceadas tienen el mismo número de 0s que 1s. Pueden ser de negación, o identidad\nEn inputs grandes esta cosa tiene la propiedad que va a determinar para inputs grandes, que una función va a ser constante o balanceada con una sola evaluación de la función.\n\\(|\\psi_0\\rangle=|01\\rangle\\)\n\\(|\\psi_1\\rangle=|-+\\rangle=\\frac{1}{2}(|00\\rangle+|01\\rangle+|10\\rangle+|11\\rangle)\\)\ncon\n\\(U_f|-x\\rangle=(-1)^{f(x)}|-x\\rangle= U_f\\frac{|-0\\rangle+|-1\\rangle}{\\sqrt{2}}\\)\n\\(|\\psi_2\\rangle=\\frac{(-1)^{f(0)}|-0\\rangle+(-1)^{f(1)}|-1\\rangle}{\\sqrt{2}}\\)\nTras Hadamard los LSB se vuelven + y -.\n\\(|\\psi_3\\rangle=\\frac{(-1)^{f(0)}|-+\\rangle+(-1)^{f(1)}|-+-\\rangle}{\\sqrt{2}}=|-\\rangle\\otimes\\frac{(-1)^{f(0)}|+\\rangle+(-1)^{f(1)}|-\\rangle}{\\sqrt{2}}=\\)\nSi la funcion es constante f(0)=f(1):\n\\(|\\psi_3\\rangle=\\pm|-0\\rangle\\)\nPero si es balanceada entonces siempre\n\\(|\\psi_3\\rangle=\\pm|-1\\rangle\\)\n\n\nCon n=3 habría \\(2^3=8\\)\ny habría \\(2^{2^{n=3}}=2^8=256\\) valores de \\(f(x)\\)\nAquí se restringe a las funciones que son constantes y balanceadas, de otra manera puede dar cualquier cosa\n\nAquí, \\(x \\in \\{0,1\\}^n\\) se refiere a \\(x=000, 001, 010, ...\\)\nLos LSB están en x en este ejemplo también."
+  },
+  {
+    "objectID": "posts/clases/9.html#algoritmo-de-deutsch",
+    "href": "posts/clases/9.html#algoritmo-de-deutsch",
+    "title": "notas",
+    "section": "",
+    "text": "Orden LSB\n\n\nHay 2 tipos de funciones \\(f(x)\\):\nConstantes y balanceadas. Las constantes son 0 y 1 sin importar el input.\nLas balanceadas tienen el mismo número de 0s que 1s. Pueden ser de negación, o identidad\nEn inputs grandes esta cosa tiene la propiedad que va a determinar para inputs grandes, que una función va a ser constante o balanceada con una sola evaluación de la función.\n\\(|\\psi_0\\rangle=|01\\rangle\\)\n\\(|\\psi_1\\rangle=|-+\\rangle=\\frac{1}{2}(|00\\rangle+|01\\rangle+|10\\rangle+|11\\rangle)\\)\ncon\n\\(U_f|-x\\rangle=(-1)^{f(x)}|-x\\rangle= U_f\\frac{|-0\\rangle+|-1\\rangle}{\\sqrt{2}}\\)\n\\(|\\psi_2\\rangle=\\frac{(-1)^{f(0)}|-0\\rangle+(-1)^{f(1)}|-1\\rangle}{\\sqrt{2}}\\)\nTras Hadamard los LSB se vuelven + y -.\n\\(|\\psi_3\\rangle=\\frac{(-1)^{f(0)}|-+\\rangle+(-1)^{f(1)}|-+-\\rangle}{\\sqrt{2}}=|-\\rangle\\otimes\\frac{(-1)^{f(0)}|+\\rangle+(-1)^{f(1)}|-\\rangle}{\\sqrt{2}}=\\)\nSi la funcion es constante f(0)=f(1):\n\\(|\\psi_3\\rangle=\\pm|-0\\rangle\\)\nPero si es balanceada entonces siempre\n\\(|\\psi_3\\rangle=\\pm|-1\\rangle\\)\n\n\nCon n=3 habría \\(2^3=8\\)\ny habría \\(2^{2^{n=3}}=2^8=256\\) valores de \\(f(x)\\)\nAquí se restringe a las funciones que son constantes y balanceadas, de otra manera puede dar cualquier cosa\n\nAquí, \\(x \\in \\{0,1\\}^n\\) se refiere a \\(x=000, 001, 010, ...\\)\nLos LSB están en x en este ejemplo también."
+  },
+  {
+    "objectID": "posts/clases/7.html",
+    "href": "posts/clases/7.html",
+    "title": "7",
+    "section": "",
+    "text": "7\nEl cerebro es cuántico? Fractal?\nLas estructuras neuronales son medio fractales, como mínimo es medio autosimilar.\nEven better, el cerebro es estocástico?\n\nParalelismo cuántico\nSi con superposiciones, entrelazamiento, e interferencia puedo medir algo muy paralelamente\n\n\nALgoritmo para hacerle ingeniería inversa a \\(U_f\\)\nU_f ="
+  },
+  {
+    "objectID": "grover_qiskit.html",
+    "href": "grover_qiskit.html",
+    "title": "notas",
+    "section": "",
+    "text": "# Built-in modules\nimport math\nimport warnings\nimport matplotlib\nwarnings.filterwarnings(\"ignore\")\n\n# Imports from Qiskit\nfrom qiskit import QuantumCircuit\nfrom qiskit.circuit.library import GroverOperator, MCMT, ZGate\nfrom qiskit.visualization import plot_distribution\n\n# Imports from Qiskit Runtime\nfrom qiskit_ibm_runtime import QiskitRuntimeService\nfrom qiskit_ibm_runtime import SamplerV2 as Sampler\n\n\nqs = 8\n\nc = QuantumCircuit(qs)\n_ = list(map(c.h, range(qs)))\n# Draw the circuit\nc.draw(\"mpl\")"
+  },
+  {
+    "objectID": "posts/clases/8.html",
+    "href": "posts/clases/8.html",
+    "title": "notas",
+    "section": "",
+    "text": "Máquinas de turing con oráculo (acelerador pero de aparato de cosas no resolvibles por máquina de Turing).\n\\[|1\\oplus f(x)\\rangle \\equiv |¬f(x)\\rangle\\]\nModificar amplitud permite aumentar probabilidad de obtener estados deseados, con suficientes shots.\nEn cuántica, la inversa normalmente es la traspuesta conjugada \\(A^\\dagger\\).\nFormas de obtener todas las compuertas a partir de Toffoli:\nNOT = q1 & q2 en 1 permanente. q3 =&gt; ¬q3\nAND = q3 en 0. q1 q2 =&gt; q1 & q2\nOR = some BS con 6 qubits que no se va a poder hacer"
+  },
+  {
+    "objectID": "posts/clases/8.html#grover",
+    "href": "posts/clases/8.html#grover",
+    "title": "notas",
+    "section": "Grover",
+    "text": "Grover\nBúsqueda no estructurada, speedup respecto a la clásica \\(N=&gt;\\sqrt{N}\\)\nLos \\(\\sqrt{N}\\) Pasos de Grover\nhttps://www.youtube.com/watch?v=PAVKuYv1HC8\n\nInversión de fase: forx in superposition \\((x_i\\) if \\(x\\neq x^* else\\ -x)\\)\nInversion about mean:\n\nCual es el equivalente de circuitos en qiskit para esto?"
+  },
+  {
+    "objectID": "posts/dirac/dirac-laptopjvm.html",
+    "href": "posts/dirac/dirac-laptopjvm.html",
+    "title": "Dirac",
+    "section": "",
+    "text": "Vector en notacón dirac es así\n$ v v $\nY el vector 0 es 0 :3\nColección de vectores es así $ { v_0 , …v_n } , … , n $\nEl vector 0 es una excepción y no cambia de notación. 0 = 0 :3\nEl dual vector es $ v = [a_{1}* a_n*] $\nEl inner product es \\[ \\langle v_1 \\vert w_1 \\rangle = \\sum_{i=1}^n a_i^*a_i \\]\nY si tuvieramos una base ortonormal $ { v_0 , …v_n } $ entonces \\[ \\langle v_i \\vert v_j \\rangle = \\delta_{ij}, \\]\nY la norma de un vector $|v| = \\sqrt{v v } $\nEl outer product de dos vectores se denota $ v v $\n\n\n\nnota\n\n\n\n\n\nEsto lo irá a transcribir mi madre\n\n\nLa base computacional de $ { , … , n-1 } $ tambien se le conoce como la base canónica. A veces va de 1 a n.\n\n\n\nBase Computacional\n\n\nY la suma normalizada de los vectores de la base computacional definen el vector $ | D $ llamado estado diagonal.\n\n\n\nDiagonal State\n\n\nY cuando n=2 \\[ \\vert + \\rangle = \\frac{\\vert 0 \\rangle + \\vert 1 \\rangle}{\\sqrt{2}} \\]\n\n\nUn qubit es un vector unitario en un espacio vectorial \\(\\mathbb{C}^2\\) y un qubit genérico \\(\\vert \\psi \\rangle\\) se representa con: \\(\\vert \\psi \\rangle = \\alpha \\vert 0\\rangle +\\beta \\vert 1 \\rangle\\)\ndonde alpha y beta, son las amplitudes de estado, cumplen \\(|\\alpha|^2 +|\\beta|^2 = 1\\) y la base computacional es el set \\(\\{ |0\\rangle,|1\\rangle \\}\\)\nLos términos de vector estado, o estado can a ser usados para significar vector unitario en espacio de Hilbert. SI transformamos la primera ecuación metiendo la segunda y haciendo una segunda transformación, un qubit se puede definir con solo 2 números reales. (Se lee que psi depende de phi y theta btw) \\(\\psi(\\phi, \\theta)\\)\n\\[|\\psi\\rangle = cos\\frac{\\theta}{2}|0\\rangle + e^{i\\phi} sin\\frac{\\theta}{2}sin|1\\rangle\\]\nY los componentes de un vector en la Bloch Sphere se ven así.\n\\[\\begin{align}  x=\\begin{bmatrix} sin\\theta cos\\phi & sin\\theta sin\\phi & cos\\theta \\end{bmatrix}^T \\label{vectorLatex} \\end{align}\\]"
+  },
+  {
+    "objectID": "posts/dirac/dirac-laptopjvm.html#quibit-y-la-bloch-sphere",
+    "href": "posts/dirac/dirac-laptopjvm.html#quibit-y-la-bloch-sphere",
+    "title": "Dirac",
+    "section": "",
+    "text": "Un qubit es un vector unitario en un espacio vectorial \\(\\mathbb{C}^2\\) y un qubit genérico \\(\\vert \\psi \\rangle\\) se representa con: \\(\\vert \\psi \\rangle = \\alpha \\vert 0\\rangle +\\beta \\vert 1 \\rangle\\)\ndonde alpha y beta, son las amplitudes de estado, cumplen \\(|\\alpha|^2 +|\\beta|^2 = 1\\) y la base computacional es el set \\(\\{ |0\\rangle,|1\\rangle \\}\\)\nLos términos de vector estado, o estado can a ser usados para significar vector unitario en espacio de Hilbert. SI transformamos la primera ecuación metiendo la segunda y haciendo una segunda transformación, un qubit se puede definir con solo 2 números reales. (Se lee que psi depende de phi y theta btw) \\(\\psi(\\phi, \\theta)\\)\n\\[|\\psi\\rangle = cos\\frac{\\theta}{2}|0\\rangle + e^{i\\phi} sin\\frac{\\theta}{2}sin|1\\rangle\\]\nY los componentes de un vector en la Bloch Sphere se ven así.\n\\[\\begin{align}  x=\\begin{bmatrix} sin\\theta cos\\phi & sin\\theta sin\\phi & cos\\theta \\end{bmatrix}^T \\label{vectorLatex} \\end{align}\\]"
+  },
+  {
+    "objectID": "posts/dirac/dirac-laptopjvm.html#operadores-especiales",
+    "href": "posts/dirac/dirac-laptopjvm.html#operadores-especiales",
+    "title": "Dirac",
+    "section": "Operadores especiales",
+    "text": "Operadores especiales\n\n\n\nalt text\n\n\nA parte,\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\nComo las matrices de Pauli unitarias y son hermitian,\no $ A^{}=A $, también aplican las propiedades que son normal $ A{}A=AA{} $, y por tanto diagonalizable. Y por ser unitarias los valores propios son $ $\n\n\n\nalt text"
+  },
+  {
+    "objectID": "posts/dirac/dirac-laptopjvm.html#operator-functions",
+    "href": "posts/dirac/dirac-laptopjvm.html#operator-functions",
+    "title": "Dirac",
+    "section": "Operator Functions",
+    "text": "Operator Functions\nWhole new world AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "objectID": "posts/dirac/dirac-laptopjvm.html#tensor-product-y-kronecker-product",
+    "href": "posts/dirac/dirac-laptopjvm.html#tensor-product-y-kronecker-product",
+    "title": "Dirac",
+    "section": "Tensor Product y Kronecker Product",
+    "text": "Tensor Product y Kronecker Product\n\n\n\nalt text\n\n\n\n\n\nalt text"
   }
 ]

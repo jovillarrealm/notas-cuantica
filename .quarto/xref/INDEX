@@ -79,5 +79,23 @@
   },
   "posts/dirac/dirac.qmd": {
     "dirac.html": "bdf61d69"
+  },
+  "posts/clases/10.md": {
+    "10.html": "01306a3c"
+  },
+  "grover_qiskit.ipynb": {
+    "grover_qiskit.html": "1c947fd0"
+  },
+  "posts/clases/7.qmd": {
+    "7.html": "12cc6b47"
+  },
+  "posts/clases/8.qmd": {
+    "8.html": "1060b2b2"
+  },
+  "posts/clases/9.qmd": {
+    "9.html": "cb588a5b"
+  },
+  "posts/dirac/dirac-laptopjvm.qmd": {
+    "dirac-laptopjvm.html": "5aaa82f4"
   }
 }
