@@ -8,7 +8,7 @@ from typing import Callable
 
 import numpy as np
 from numpy import ndarray
-#from scipy import sparse as sp
+# from scipy import sparse as sp
 
 
 # %%
@@ -44,7 +44,6 @@ def proyection_about_mean(N: int):
 # %%
 
 
-
 # %%
 # TODO!
 @lru_cache(maxsize=1)
@@ -54,9 +53,9 @@ def phase_inversion(N, f: Callable) -> ndarray:
     -1 en la diagonal si f(x)=1
 
     Esta matriz debe ser más grande.
-    si hay 3 qubits en el sistema, 
+    si hay 3 qubits en el sistema,
     U_f va a trabajar con un qubit auxiliar extra de f(x)
-    Entonces si hay n qubits, la matriz de esta función es de 
+    Entonces si hay n qubits, la matriz de esta función es de
     shape(2^{n+1},2^{n+1})?
 
     Args:
@@ -67,28 +66,27 @@ def phase_inversion(N, f: Callable) -> ndarray:
         ndarray: _description_
     """
     # Define data, row indices, and column indices for non-zero elements
-    data = list(-1 if f(x) else 1 for x in range(N) )
+    data = list(-1 if f(x) else 1 for x in range(N))
 
     # Create a sparse CSC matrix
-    #A_f = sp.csc_matrix((data, (row_indices, col_indices)), shape=(N,N))
+    # A_f = sp.csc_matrix((data, (row_indices, col_indices)), shape=(N,N))
 
     A_f = np.diag(data)
     op_deets(A_f, "A_f")
-    U_f = np.kron(A_f,np.eye(2))
+    U_f = np.kron(A_f, np.eye(2))
     # Kronecker products crea submatrices, esto reshapea a matriz
-    U_f:ndarray = U_f.reshape(-1, U_f.shape[-1])
+    U_f: ndarray = U_f.reshape(-1, U_f.shape[-1])
     return U_f
 
 
-def op_deets(op: ndarray, label:str):
+def op_deets(op: ndarray, label: str):
     print()
     print(label)
     print(op.shape)
-    #print("norm:", np.linalg.norm(op, ord=np.inf))
+    # print("norm:", np.linalg.norm(op, ord=np.inf))
     print(op)
     print()
     print()
-    
 
 
 def dag(A: ndarray):
@@ -106,7 +104,7 @@ def are_approximate(A, B) -> bool:
         bool: true when the element-wise difference is lower than the tolerance threshold
     """
     tol = 1e-11  # Tolerance threshold
-    #print(f"{tol:.11f}")
+    # print(f"{tol:.11f}")
     # Element-wise absolute difference
     diff = np.abs(A - B)
 
@@ -123,23 +121,35 @@ def is_op_unitary(A, N):
     assert are_approximate(case1, case2) and are_approximate(case2, np.eye(N))
 
 
-def test_ops(n, N, f):
+def is_v_unit(v:ndarray):
+    print("v_2 inner product")
+    v_2 = (v.T @ v)[0][0]
+    tol = 1e-11
+    print(v_2)
+    is_approximate = tol > abs(v_2 - 1)
+    assert is_approximate
+
+
+def test_ops(n, N, f, psi):
     print(f"Qubits n: {n}, Estados totales N : {N}")
     H = H_otimes_n(n)
     is_op_unitary(H, N)
     # Hadamard además de unitaria, es Hermitian?
-    assert are_approximate(H,dag(H))
+    assert are_approximate(H, dag(H))
     label = "Hadamard"
     op_deets(H, label)
     U_0n = proyection_about_mean(N)
     is_op_unitary(U_0n, N)
-    label ="Proyection about mean:"
+    label = "Proyection about mean:"
     op_deets(U_0n, label)
     # P_I es una función oráculo
     P_I = phase_inversion(N, f)
-    is_op_unitary(P_I, N*2)
+    is_op_unitary(P_I, N * 2)
     label = "Phase inversion:"
     op_deets(P_I, label)
+    # psi es un vector unitario
+    is_v_unit(psi)
+    print("psi es unitario")
 
 
 # %%
@@ -150,30 +160,33 @@ def grover(N: int, f: Callable):
         N (int): numero de estados
         f (Callable): función que toma estados y dice si son x* o no
     """
-    n = ceil(log(N, 2))   # Numero de qubits
+    n = ceil(log(N, 2))  # Numero de qubits
     N = 2**n  # CAMBIANDO EL NUMERO DE ESTADOS; FIGHT ME o FIXME
-    test_ops(n, 2**n, f)
-    psi_0 = np.ones((N, 1))
+    psi_0 = np.ones((N, 1)) * (1/sqrt(N))
     # Hacer el auxiliar
 
     print("psi_0:")
     print(psi_0)
 
     psi_i = H_otimes_n(n) @ psi_0  # inicialization
-    
+
+
     print("psi_1:")
     print(psi_i)
+    test_ops(n, 2**n, f, psi_i)
 
     # sqrt(n) iteraciones
     for _ in range(int(sqrt(N)) + 1):
         # Phase Inversion
-        psi_i = np.resize(psi_i,(2*N,1))
+        
+        psi_i = np.resize(psi_i, (2 * N, 1))
         psi_i = phase_inversion(N, f) @ psi_i
-        print("psi_i:")
+        print("psi_i: post PI")
         print(psi_i)
-        psi_i = np.resize(psi_i,(N,1))
-        print("psi_i:")
+        psi_i = np.resize(psi_i, (N, 1))
+        print("psi_i: post PI resize")
         print(psi_i)
+        
         # Proyection about mean
         psi_i = H_otimes_n(n) @ psi_i
         psi_i = proyection_about_mean(N) @ psi_i
@@ -186,13 +199,13 @@ def grover(N: int, f: Callable):
 N = 4
 
 
-def f(x:int)->bool:
+def f(x: int) -> bool:
     """Función binaria de input a la función oráculo.
     Se supone que si la conozco pues medio ya se donde está lo que busco.
 
     A partir de esta función se genera la matriz U_f.
 
-    Debe cumplir: f:{0,1}^n -> {0,1} por lo que hay 2^(2^N) 
+    Debe cumplir: f:{0,1}^n -> {0,1} por lo que hay 2^(2^N)
     versiones diferentes de f
 
 
@@ -202,7 +215,7 @@ def f(x:int)->bool:
     Returns:
         int: binario que dice si esto es el estado buscado o no
     """
-    return (x-1)%4==0
+    return (x - 1) % 4 == 0
 
 
 grover(N, f)
@@ -210,6 +223,6 @@ grover(N, f)
 # TODO hacer phase inversion, como sparse matrix de ser posible
 # TODO hacer el qubit auxiliar
 # TODO hacer shots en esta vaina
-# TODO print con LaTex? 
+# TODO print con LaTex?
 
 # %%
