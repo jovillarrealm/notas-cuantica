@@ -1,0 +1,19 @@
+# Ruido
+
+## Caso circuito chequeo de circuito que es resiliente a un tipo de error en un qubit
+
+(Una negación en un qubit)
+
+en un sistema con $|q_0 q_1 q_2>$
+
+donde todos los q_i son iguales (con Nots controlados se garantiza esto) y se meten en un circuito que meta ruido, se debe obtener el mismo q_0 que al principio.
+
+Casos posibles de esto:
+
+## No pasa nada
+
+## $¬q_0$
+
+Que tal si en el caso de Pauli-Y va a haber un montón de Y-controladas consigo mismas?
+
+Va a haber un monton de problemas con signos pero no importa, las magnitudes siguientes aplican aún así.

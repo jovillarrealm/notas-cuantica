@@ -1,0 +1,7 @@
+# Clase 12
+
+i ) el estado de un sistema cuantico de $n$ qubits es un vector unitario en espacio de Hilbert \$\$\\mathbb{C}^{2\^n}^\$\$
+
+ii\) toda transformación es por una matriz unitaria.
+
+iii)Toda matriz unitaria es invertible y l inversa de $A$ es $A^{\dag}$
