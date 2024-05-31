@@ -28,7 +28,7 @@ p = [
     vec_at(0b101),
     vec_at(0b011),
 ]
-for i, j in combinations_with_replacement(range(3), 2):
+for i, j in combinations_with_replacement(range(4), 2):
     print(f"{i}, {j}")
     P_j = P[j]
     p_i = p[i]
