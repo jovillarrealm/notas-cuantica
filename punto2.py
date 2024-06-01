@@ -1,9 +1,8 @@
-from sympy import Matrix, latex
+from sympy import Matrix, latex, Add
 from sympy.abc import alpha, beta
 import numpy as np
 from itertools import combinations_with_replacement
 from typing import Callable
-import sympy as sy
 
 
 def vec_ab(ai, bi):
@@ -29,7 +28,7 @@ def self_outer(n):
 
 
 def mul_print(A, B, C):
-    if isinstance(C, sy.Add):
+    if isinstance(C, Add):
         ans = [
             f"""\\\\
 {latex(A)}
@@ -90,7 +89,7 @@ def imprinting(P: list[Matrix], p: list[Matrix], cond: Callable):
             ans.append(mul_print(P_j, p_i, m_i))
             if i == j:
                 ans.append(mul_print(p_i.T, m_i, r_i))
-                assert isinstance(r_i, sy.Add)
+                assert isinstance(r_i, Add)
             else:
                 ans.append(mul_print(p_i.T, m_i, r_i))
                 assert r_i == 0
@@ -101,6 +100,8 @@ def imprinting(P: list[Matrix], p: list[Matrix], cond: Callable):
 
 def same(i, j):
     return i == j
+
+
 def not_same(i, j):
     return i != j
 
